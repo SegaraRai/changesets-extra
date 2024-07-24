@@ -1,0 +1,6 @@
+- TypeScript config file (changesets-extra.config.ts) using [unconfig](https://github.com/antfu-collective/unconfig)
+- Single package detection for tagging
+- User-friendly PR title and commit message generation
+  - `Release v1.0.0`, `release: v1.0.0`, `Release some-package v1.0.0 and other-package v2.1.0`, `Release some-package v1.0.0 and 16 packages`, `Release 24 packages`, ...
+- Provenance support
+- `changeset-extra version` and `changeset-extra publish` command
